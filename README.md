@@ -95,6 +95,12 @@ Your Hubot instance's hostname in Heroku.
 
     % export HUBOT_FLOWDOCK_LOGIN_PASSWORD="..."
 
+e.g. you can add the following to /bin/hubot to set the env variable
+
+    export HUBOT_FLOWDOCK_LOGIN_EMAIL="EMAIL_HERE"
+    
+    export HUBOT_FLOWDOCK_LOGIN_PASSWORD="PASS_HERE"
+
 ## API
 
 ### Flows
